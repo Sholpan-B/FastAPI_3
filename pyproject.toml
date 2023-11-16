@@ -15,10 +15,6 @@ poetry = "^1.6.1"
 postgres = ["psycopg2-binary"]
 
 
-[tool.poetry.scripts]
-greetings = "echo greetings!"
-
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
